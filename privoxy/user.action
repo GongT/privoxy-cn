@@ -75,6 +75,7 @@ allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
 .githubusercontent.com
 .github.com
 .githubapp.com
+.jspm.io
 .google.com.
 .gstatic.com
 #... etc.  Customize to your heart's content.
