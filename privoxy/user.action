@@ -72,6 +72,7 @@ allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
 .twitter.com
 .facebook.com
 .npmjs.com
+.nodejs.org
 .githubusercontent.com
 .github.com
 .githubapp.com
