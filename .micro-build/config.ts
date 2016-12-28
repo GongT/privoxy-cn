@@ -27,6 +27,6 @@ build.forwardPort(8080, 'tcp').publish(8080);
 
 build.disablePlugin(EPlugins.jenv);
 
-build.volume('./privoxy', '/etc/privoxy');
+build.volume('./privoxy', '/data/privoxy');
 
 build.dependService('shadowsocks-client', 'http://github.com/GongT/shadowsocks-client.git');
