@@ -16,6 +16,8 @@ build.projectName(projectName);
 build.domainName(projectName + '.gongt');
 
 build.noDataCopy();
+
+build.isInChina(JsonEnv.gfw.isInChina);
 build.systemInstallMethod('apk');
 build.systemInstall('privoxy');
 
