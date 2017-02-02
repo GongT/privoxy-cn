@@ -223,7 +223,7 @@ user-manual https://www.privoxy.org/user-manual/
 #
 #      This URL shouldn't be blocked ;-)
 #
-#proxy-info-url http://www.example.com/proxy-service.html
+proxy-info-url https://www.privoxy.org/user-manual/
 #
 #  2. CONFIGURATION AND LOG FILE LOCATIONS
 #  ========================================
@@ -478,7 +478,7 @@ filterfile user.filter      # User customizations
 #      require additional software to do it. For details, please
 #      refer to the documentation for your operating system.
 #
-logfile privoxy.log
+logfile /dev/stderr
 #
 #  2.8. trustfile
 #  ===============
