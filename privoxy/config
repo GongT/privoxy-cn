@@ -611,10 +611,13 @@ logfile /dev/stderr
 #      problem on your own.
 #
 debug     1 # Log the destination for each request Privoxy let through. See also debug 1024.
+# debug     8 # show header parsing
+# debug   128 # debug redirects
 debug  1024 # Actions that are applied to all sites and maybe overruled later on.
 debug  2048 # CGI user interface
 debug  4096 # Startup banner and warnings
 debug  8192 # Non-fatal errors
+# debug 65536 # Log the applying actions
 #
 #  3.2. single-threaded
 #  =====================
