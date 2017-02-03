@@ -83,6 +83,7 @@ allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
 .googleapis.com
 .g.cn
 .googletagmanager.com
+golang.org
 .golang.org
 #... etc.  Customize to your heart's content.
 
