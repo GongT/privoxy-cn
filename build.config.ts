@@ -35,4 +35,4 @@ build.disablePlugin(EPlugins.jenv);
 
 build.volume('./privoxy', '/data/privoxy');
 
-build.dependService('shadowsocks-client', 'http://github.com/GongT/shadowsocks-client.git');
+build.dependService('shadowsocks-client', 'https://github.com/GongT/shadowsocks-client.git');
