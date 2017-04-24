@@ -12,8 +12,5 @@ coverage/
 typings
 !.*ignore
 !.gitinclude
-privoxy
 privoxy/trust
 ### <<< END MICRO-BUILD SECTION
-
-!privoxy
