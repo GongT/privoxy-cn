@@ -36,3 +36,9 @@ build.disablePlugin(EPlugins.jenv);
 build.volume('./privoxy', '/data/privoxy');
 
 build.dependService('shadowsocks-client', 'https://github.com/GongT/shadowsocks-client.git');
+
+build.onConfig(() => {
+	helper.createTextFile(`
+~${projectName}.${JsonEnv.baseDomainName}
+`).save('./privoxy/trust');
+});
