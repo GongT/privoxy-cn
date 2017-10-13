@@ -14,5 +14,6 @@ screen.*
 package-lock.json
 !.*ignore
 !.gitinclude
+!.babelrc
 privoxy/trust
 ### <<< END MICRO-BUILD SECTION
